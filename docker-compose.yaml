@@ -7,7 +7,7 @@ services:
       - 8080:25000
     environment:
       - DB_USER=db_user
-      - DB_PASSWORD=db_password
+      - DB_PASSWORD=db_password123123123123
       - DB_NAME=db_name
       - DB_HOST=db
     depends_on:
@@ -15,6 +15,6 @@ services:
   db:
     image: postgres
     environment:
-      - POSTGRES_PASSWORD=db_password
+      - POSTGRES_PASSWORD=db_password123123123123
       - POSTGRES_USER=db_user
       - POSTGRES_DB=db_name
