@@ -4,7 +4,7 @@ from flask import Flask
 #test
 from db import db
 from views import main_bp
-#1
+#2
 DB_NAME = os.getenv('DB_NAME')
 DB_USER = os.getenv('DB_USER')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
